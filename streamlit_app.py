@@ -140,7 +140,7 @@ def display_e_matrix(E, components):
 
     return matrix_str
 def main():
-    st.title("Enhanced Water Network Builder 🌊💧")
+    st.title("Model of water distribution network via SWDAE🌊💧")
 
     # Initialize session state
     if 'nodes' not in st.session_state:
